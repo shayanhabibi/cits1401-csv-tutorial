@@ -10,3 +10,8 @@ A version without comments/explanation is available too.
 ### tutorial.py
 
 ### nocomments.py
+
+Disclaimer: This is just a tutorial to help people with basic principles and logical
+flow using base python and is not related to answering any projects specifically.
+
+Disclaimer: Code has not been tested.
