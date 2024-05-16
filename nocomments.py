@@ -87,42 +87,4 @@ def process_file(file):
         line = file.readline()
     return True
 
-def main(csvfile):
-    required_headers = {
-        'id': str,
-        'income': float,
-        'profession': str,
-        'age': int
-    }
-    require_headers(required_headers)
-
-    def validate_income(value):
-        return value.replace(".","",1).isdigit()
-    
-    required_validators = {
-        'id': validate_ids,
-        'age': validate_age,
-        'income': validate_income,
-        'all_headers': lambda x: x
-    }
-    require_validators(required_validators)
-
-    try:
-        file = open(csvfile, 'r')
-    except:
-        print('Could not open file!')
-        return
-    if not process_file(file):
-        print('Data is invalid!')
-        return
-    
-    income_ids = data_index['income'][100]
-    profession_ids = data_index['profession']['doctor']
-    common_ids = income_ids.intersection(profession_ids)
-    rows = []
-    for row_id in common_ids:
-        rows.append(data_rows[row_id])
-    total_age = 0
-    for row in rows:
-        total_age += row['age']
-    print(total_age)
+# See tutorial for an example of usage
