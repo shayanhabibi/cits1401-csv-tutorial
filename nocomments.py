@@ -8,6 +8,8 @@ def process_data(data):
     row_id = data[unique_identifier_header]
     data_rows[row_id] = data
     for header, value in data.items():
+        if header == unique_identifier_header:
+            continue
         data_index.setdefault(header, {}).setdefault(value, set()).add(row_id)
 
 def sanitize(value):

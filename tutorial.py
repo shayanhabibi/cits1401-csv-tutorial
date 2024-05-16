@@ -67,6 +67,10 @@ def process_data(data):
     # now we want to index the data.
     # we're going to loop over all the headers and values in the data
     for header, value in data.items():
+        # First, let's ignore the unique identifier header. We don't need to index that.
+        # We've already stored the data in the data_rows dictionary.
+        if header == unique_identifier_header:
+            continue # Skip the rest of the loop and go to the next header/value pair
         data_index.setdefault(header, {}).setdefault(value, set()).add(row_id)
         # setdefault is a function for dictionaries that will give us the value of the key if it
         # exists, or create it with the default value if it doesn't. So basically,
