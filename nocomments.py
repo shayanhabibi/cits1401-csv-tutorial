@@ -28,15 +28,6 @@ def require_headers(header_dict):
     for header, header_type in header_dict.items():
         header_types[sanitize(header)] = header_type
 
-def validate_ids(value):
-    return value.isalnum()
-
-def validate_age(value):
-    if value.isdigit():
-        if int(value) > 0:
-            return True
-    return False
-
 header_validators = {}
 
 def require_validators(header_dict):
