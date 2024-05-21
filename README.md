@@ -27,3 +27,13 @@ To run a cell, press `Shift + Enter` or click the Play button at the top (next t
 Write your code, then run the cell followed by the cell below it.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/shayanhabibi/cits1401-csv-tutorial/master?labpath=CITS1401Recursion.ipynb)
+
+# CITS1401 - Practice Questions
+
+A jupyter notebook with the practice questions provided by Dr Hassan
+
+You can view the file in GitHub or click the badge below to use an interactive version of the notebook.
+
+To run a cell, press `Shift + Enter` or click the Play button at the top (next to the stop button).
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/shayanhabibi/cits1401-csv-tutorial/master?labpath=CITS1401PracticeQuestions.ipynb)
