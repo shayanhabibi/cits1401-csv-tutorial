@@ -37,3 +37,7 @@ You can view the file in GitHub or click the badge below to use an interactive v
 To run a cell, press `Shift + Enter` or click the Play button at the top (next to the stop button).
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/shayanhabibi/cits1401-csv-tutorial/master?labpath=CITS1401PracticeQuestions.ipynb)
+
+# Unit Final Grade
+
+98%
