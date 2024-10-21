@@ -1,0 +1,3 @@
+s_no,First name,Middle name,Last name,Date of birth,Address,Phone
+1, Ali,Kem,Khan,12/5/2000,Crawley WA,+4344444
+2, John,Roger,Smith,1/12/2008,Crawley WA,+4344444
